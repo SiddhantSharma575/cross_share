@@ -1,0 +1,25 @@
+.profile_cont {
+    width: 60vw;
+    height: 30vh;
+    background-color: rgb(82, 135, 153);
+    margin-top: 4rem;
+    border-radius: 1rem;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+.inner_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner_cont > h1 {
+    color: white;
+    margin-top: 2rem;
+}
+
+.inner_cont > img {
+    border-radius: 50%;
+    margin-top: 2rem;
+}

@@ -1,0 +1,50 @@
+.header_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title > h3 {
+    cursor: pointer;
+    color: #1c304f;
+}
+
+.link > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* background-color: rebeccapurple; */
+    width: 200%;
+}
+
+.link > ul > li {
+    color: #1c304f;
+    cursor: pointer;
+}
+
+.profile_container > img {
+    width: 80px;
+    height: 83px;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.profile_container > button {
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        color: white;
+        background-color: #1c304f;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all ease-in-out 1s;
+}
+
+.profile_container >button:hover {
+    background-color: #144185;
+    border-radius: 1.5rem;
+}

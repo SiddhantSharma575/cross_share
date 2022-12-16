@@ -1,0 +1,46 @@
+.saved_data_container {
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(82, 135, 153);
+    margin-top: 3rem;
+    border-radius: 1rem;
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.txt_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.txt_card {
+    width: 15rem;
+    height: 15rem;
+    border : 3px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.link_card {
+    width: 15rem;
+    height: 10rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: lightslategrey;
+    cursor: pointer;
+}
+
+.link_card > p {
+    margin-top: 2rem;
+    overflow: hidden;
+}
