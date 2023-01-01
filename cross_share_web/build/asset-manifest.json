@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f77e8d9a.css",
+    "main.js": "/static/js/main.742e1de3.js",
+    "static/media/cross_share.apk": "/static/media/cross_share.582c377788c5cfdfa8bb.apk",
+    "static/media/main.mp4": "/static/media/main.9dda7b3a7bf6dc130e39.mp4",
+    "static/media/google.png": "/static/media/google.49eda5baf38c81b402f5.png",
+    "index.html": "/index.html",
+    "main.f77e8d9a.css.map": "/static/css/main.f77e8d9a.css.map",
+    "main.742e1de3.js.map": "/static/js/main.742e1de3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f77e8d9a.css",
+    "static/js/main.742e1de3.js"
+  ]
+}
