@@ -6,9 +6,11 @@ const Header = () => {
     const [user, setUser] = useState(JSON.parse(localStorage
         .getItem("user")))
     const navigate = useNavigate();
+    // console.log(user.profile)
     useEffect(() => {
         const user = JSON.parse(localStorage.getItem("user"))
         setUser(user)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [localStorage.getItem("user")])
     return (
         <div className='header_container'>
